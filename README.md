@@ -1,5 +1,5 @@
-# ITMO 'git' disciplines:
-## Algorithms
-## C++
-## OS
-## Physics
+## ITMO 'git' disciplines:
+### Algorithms
+### C++
+### OS
+### Physics
