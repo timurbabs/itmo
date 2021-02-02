@@ -1,4 +1,4 @@
-#ITMO 'git' disciplines:
+# ITMO 'git' disciplines:
 ## Algorithms
 ## C++
 ## OS
