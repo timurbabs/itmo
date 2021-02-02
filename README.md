@@ -1,4 +1,4 @@
-## ITMO tasks that I can show =)
+## ITMO tasks that I can show.
 ### Disciplines:
 #### 1.Algorithms
 #### 2.C++
