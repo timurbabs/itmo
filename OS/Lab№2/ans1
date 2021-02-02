@@ -1,0 +1,98 @@
+97
+    561 /usr/lib/systemd/systemd --user
+    562 (sd-pam)
+    570 mate-session
+    575 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+    578 /usr/lib/gvfsd
+    583 /usr/lib/gvfsd-fuse /run/user/1000/gvfs -f
+    590 /usr/lib/at-spi-bus-launcher
+    596 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+    603 /usr/lib/dconf-service
+    608 /usr/lib/mate-settings-daemon/mate-settings-daemon
+    610 /usr/lib/at-spi2-registryd --use-gnome-session
+    616 marco
+    620 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+    630 mate-panel
+    635 /usr/lib/gvfs-udisks2-volume-monitor
+    639 /usr/bin/caja
+    646 /usr/lib/brisk-menu/brisk-menu
+    648 /usr/lib/mate-panel/clock-applet
+    650 /usr/lib/mate-panel/fish-applet
+    652 /usr/lib/mate-panel/wnck-applet
+    654 /usr/lib/mate-panel/notification-area-applet
+    685 pamac-tray
+    686 mate-volume-control-status-icon
+    687 mate-power-manager
+    688 nm-applet
+    691 /usr/lib/mate-polkit/polkit-mate-authentication-agent-1
+    694 plank
+    698 mate-maximus
+    726 emacs --daemon
+    743 /usr/lib/bamf/bamfdaemon
+    773 /usr/lib/pulse/gsettings-helper
+    787 /usr/lib/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+    794 /usr/bin/mate-screensaver --no-daemon
+   7724 /usr/lib/gvfsd-http --spawner :1.3 /org/gtk/gvfs/exec_spaw/1
+   8524 /usr/lib/gvfsd-metadata
+   8842 /usr/lib/gvfsd-network --spawner :1.3 /org/gtk/gvfs/exec_spaw/2
+   8848 /usr/lib/gvfsd-dnssd --spawner :1.3 /org/gtk/gvfs/exec_spaw/3
+   8915 atril /home/timurbabs/OS.pdf
+   8921 /usr/lib/atrild
+   8930 /usr/lib/WebKitWebProcess 7 21
+   8931 /usr/lib/WebKitNetworkProcess 8 21
+  13315 mate-terminal
+  13321 bash
+  45027 /usr/lib/chromium/chromium
+  45033 /usr/lib/chromium/chromium --type=zygote --no-zygote-sandbox
+  45034 /usr/lib/chromium/chromium --type=zygote
+  45036 /usr/lib/chromium/chromium --type=zygote
+  45058 /usr/lib/chromium/chromium --type=gpu-process --field-trial-handle=6264934064159752731,11166349593822290546,131072 --gpu-preferences=MAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAQAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA= --shared-files
+  45061 /usr/lib/chromium/chromium --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=6264934064159752731,11166349593822290546,131072 --lang=en-US --service-sandbox-type=network --shared-files
+  45125 /usr/lib/chromium/chromium --type=broker
+  45142 /usr/lib/chromium/chromium --type=renderer --field-trial-handle=6264934064159752731,11166349593822290546,131072 --lang=en-US --extension-process --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4 --no-v8-untrusted-code-mitigations --shared-files
+  45188 /usr/lib/chromium/chromium --type=renderer --field-trial-handle=6264934064159752731,11166349593822290546,131072 --lang=en-US --extension-process --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --no-v8-untrusted-code-mitigations --shared-files
+  45207 /usr/lib/chromium/chromium --type=renderer --field-trial-handle=6264934064159752731,11166349593822290546,131072 --lang=en-US --extension-process --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=6 --no-v8-untrusted-code-mitigations --shared-files
+  45359 telegram-desktop --
+  45687 /usr/lib/chromium/chromium --type=utility --utility-sub-type=audio.mojom.AudioService --field-trial-handle=6264934064159752731,11166349593822290546,131072 --lang=en-US --service-sandbox-type=none --shared-files
+  46326 /usr/lib/chromium/chromium --type=renderer --field-trial-handle=6264934064159752731,11166349593822290546,131072 --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=28 --no-v8-untrusted-code-mitigations --shared-files
+  46365 /usr/lib/chromium/chromium --type=renderer --field-trial-handle=6264934064159752731,11166349593822290546,131072 --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=30 --no-v8-untrusted-code-mitigations --shared-files
+  49431 /bin/sh /home/timurbabs/Rider/JetBrains Rider-2020.2.4/bin/rider.sh
+  49474 /home/timurbabs/Rider/JetBrains Rider-2020.2.4/jbr/bin/java -classpath /home/timurbabs/Rider/JetBrains Rider-2020.2.4/lib/bootstrap.jar:/home/timurbabs/Rider/JetBrains Rider-2020.2.4/lib/extensions.jar:/home/timurbabs/Rider/JetBrains Rider-2020.2.4/lib/util.jar:/home/timurbabs/Rider/JetBrains Rider-2020.2.4/lib/jdom.jar:/home/timurbabs/Rider/JetBrains Rider-2020.2.4/lib/log4j.jar:/home/timurbabs/Rider/JetBrains Rider-2020.2.4/lib/trove4j.jar:/home/timurbabs/Rider/JetBrains Rider-2020.2.4/lib/jna.jar:/home/timurbabs/Rider/JetBrains Rider-2020.2.4/jbr/lib/tools.jar -Xms128m -Xmx1500m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -XX:CICompilerCount=2 -Dsun.io.useCanonPrefixCache=false -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djdk.attach.allowAttachSelf=true -Dkotlinx.coroutines.debug=off -Djdk.module.illegalAccess.silent=true -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/timurbabs/java_error_in_RIDER_%p.log -XX:HeapDumpPath=/home/timurbabs/java_error_in_RIDER.hprof -Didea.vendor.name=JetBrains -Didea.paths.selector=Rider2020.2 -Djb.vmOptionsFile=/home/timurbabs/Rider/JetBrains Rider-2020.2.4/bin/rider64.vmoptions -Didea.platform.prefix=Rider -Dide.native.launcher=true -Didea.class.before.app=com.jetbrains.rider.protocol.EarlyBackendStarter -Didea.log.config.file=log.xml -Didea.jre.check=true com.intellij.idea.Main
+  49561 /home/timurbabs/Rider/JetBrains Rider-2020.2.4/lib/ReSharperHost/linux-x64/dotnet/dotnet exec --runtimeconfig /home/timurbabs/Rider/JetBrains Rider-2020.2.4/lib/ReSharperHost/JetBrains.ReSharper.Host.netcore.runtimeconfig.json /home/timurbabs/Rider/JetBrains Rider-2020.2.4/lib/ReSharperHost/JetBrains.ReSharper.Host.exe --Port=35815
+  49691 /home/timurbabs/Rider/JetBrains Rider-2020.2.4/bin/fsnotifier64
+  84073 bash /home/timurbabs/.local/share/Steam/steam.sh
+  91739 /home/timurbabs/.local/share/Steam/ubuntu12_32/steam
+  91742 /home/timurbabs/.local/share/Steam/ubuntu12_32/steam
+  91743 /bin/bash /home/timurbabs/.local/share/Steam/ubuntu12_64/steamwebhelper.sh -lang=en_US -cachedir=/home/timurbabs/.local/share/Steam/config/htmlcache -steampid=91739 -buildid=1603487799 -steamid=0 -steamuniverse=Public -clientui=/home/timurbabs/.local/share/Steam/clientui --enable-blink-features=ResizeObserver,Worklet,AudioWorklet --enable-media-stream --enable-smooth-scrolling --password-store=basic --log-file=/home/timurbabs/.local/share/Steam/logs/cef_log.txt
+  91746 ./steamwebhelper -lang=en_US -cachedir=/home/timurbabs/.local/share/Steam/config/htmlcache -steampid=91739 -buildid=1603487799 -steamid=0 -steamuniverse=Public -clientui=/home/timurbabs/.local/share/Steam/clientui --enable-blink-features=ResizeObserver,Worklet,AudioWorklet --enable-media-stream --enable-smooth-scrolling --password-store=basic --log-file=/home/timurbabs/.local/share/Steam/logs/cef_log.txt
+  91748 ./steamwebhelper --type=zygote --no-sandbox --log-file=/home/timurbabs/.local/share/Steam/logs/cef_log.txt --product-version=Valve Steam Client --lang=en_US.UTF-8
+  91758 /home/timurbabs/.local/share/Steam/ubuntu12_64/steamwebhelper --type=gpu-process --field-trial-handle=5602602336792118694,2392594070558006968,131072 --disable-features=MimeHandlerViewInCrossProcessFrame --no-sandbox --log-file=/home/timurbabs/.local/share/Steam/logs/cef_log.txt --product-version=Valve Steam Client --lang=en_US.UTF-8 --gpu-preferences=KAAAAAAAAAAgAAAgAAAAAAAAYAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA --log-file=/home/timurbabs/.local/share/Steam/logs/cef_log.txt --service-request-channel-token=9197100324295615009
+  91781 /home/timurbabs/.local/share/Steam/ubuntu12_64/steamwebhelper --type=utility --field-trial-handle=5602602336792118694,2392594070558006968,131072 --disable-features=MimeHandlerViewInCrossProcessFrame --lang=en-US --service-sandbox-type=network --no-sandbox --log-file=/home/timurbabs/.local/share/Steam/logs/cef_log.txt --product-version=Valve Steam Client --lang=en_US.UTF-8 --log-file=/home/timurbabs/.local/share/Steam/logs/cef_log.txt --service-request-channel-token=15053899569050154869 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+  91823 ./steamwebhelper --type=zygote --no-sandbox --log-file=/home/timurbabs/.local/share/Steam/logs/cef_log.txt --product-version=Valve Steam Client --lang=en_US.UTF-8
+  91851 ./steamwebhelper --type=zygote --no-sandbox --log-file=/home/timurbabs/.local/share/Steam/logs/cef_log.txt --product-version=Valve Steam Client --lang=en_US.UTF-8
+  91857 ./steamwebhelper --type=zygote --no-sandbox --log-file=/home/timurbabs/.local/share/Steam/logs/cef_log.txt --product-version=Valve Steam Client --lang=en_US.UTF-8
+  92706 /opt/discord/Discord
+  92711 /opt/discord/Discord --type=zygote
+  92713 /opt/discord/Discord --type=zygote
+  92738 /opt/discord/Discord --type=gpu-process --field-trial-handle=17083069420658269131,7084506974421320066,131072 --disable-features=SpareRendererForSitePerProcess --gpu-preferences=KAAAAAAAAAAgAAAgAAAAAAAAYAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA --service-request-channel-token=17483577152289681110
+  92743 /opt/discord/Discord --type=utility --field-trial-handle=17083069420658269131,7084506974421320066,131072 --disable-features=SpareRendererForSitePerProcess --lang=en-US --service-sandbox-type=network --service-request-channel-token=3646421049624956099 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+  92767 /opt/discord/Discord --type=broker
+  92787 /opt/discord/Discord --type=renderer --autoplay-policy=no-user-gesture-required --field-trial-handle=17083069420658269131,7084506974421320066,131072 --disable-features=SpareRendererForSitePerProcess --lang=en-US --app-path=/opt/discord/resources/app.asar --no-sandbox --no-zygote --native-window-open --preload=/home/timurbabs/.config/discord/0.0.12/modules/discord_desktop_core/core.asar/app/mainScreenPreload.js --disable-remote-module --context-isolation --background-color=#202225 --enable-websql --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=1895627067739317120 --renderer-client-id=7 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101 --enable-node-leakage-in-renderers
+  94700 /home/timurbabs/.local/share/Steam/ubuntu12_32/steam
+  94701 python3 /home/timurbabs/.local/share/Steam/steamapps/common/Proton 5.0/proton waitforexitandrun /home/timurbabs/.local/share/Steam/steamapps/common/GWENT The Witcher Card Game/Gwent.exe
+  94708 steam /home/timurbabs/.local/share/Steam/steamapps/common/GWENT The Witcher Card Game/Gwent.exe
+  94711 /home/timurbabs/.local/share/Steam/steamapps/common/Proton 5.0/dist/bin/wineserver
+  94715 C:\windows\system32\services.exe
+  94718 C:\windows\system32\plugplay.exe
+  94725 C:\windows\system32\winedevice.exe
+  94733 C:\windows\system32\winedevice.exe
+  94740 C:\windows\system32\explorer.exe /desktop
+  94750 Z:\home\timurbabs\.local\share\Steam\steamapps\common\GWENT The Witcher Card Game\Gwent.exe
+  94811 /home/timurbabs/.local/share/Steam/ubuntu12_32/gameoverlayui -pid 94750 -steampid 91739 -manuallyclearframes 0 -gameid 1284410
+  94813 ./steamwebhelper --type=zygote --no-sandbox --log-file=/home/timurbabs/.local/share/Steam/logs/cef_log.txt --product-version=Valve Steam Client --lang=en_US.UTF-8
+  99774 /usr/lib/chromium/chromium --type=renderer --field-trial-handle=6264934064159752731,11166349593822290546,131072 --lang=en-US --extension-process --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=223 --no-v8-untrusted-code-mitigations --shared-files
+ 101766 /usr/bin/mono-sgen /usr/lib/mono/msbuild/Current/bin/MSBuild.dll /tmp/JetBrainsPerUserTemp-1000-1/Gadupur.proj
+ 110511 /usr/lib/chromium/chromium --type=renderer --field-trial-handle=6264934064159752731,11166349593822290546,131072 --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=311 --no-v8-untrusted-code-mitigations --shared-files
+ 110587 /usr/lib/mate-notification-daemon/mate-notification-daemon
+ 110601 bash ./task1.sh
+ 110602 ps --no-headers -u timurbabs -o pid,command
