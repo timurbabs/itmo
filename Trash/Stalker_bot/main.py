@@ -18,22 +18,26 @@ def start(message):
 @bot.callback_query_handler(func=lambda call: True)
 def query_handler(call):
     global more_data
-    if call.data in ('1', '2', '3', '4'):
-        bot.send_message(chat_id=call.message.chat.id, text=get_joke(call.data))
-        keyboard = [
-            [InlineKeyboardButton("More", callback_data='0'), InlineKeyboardButton("Another one", callback_data='9')]]
-        markup = InlineKeyboardMarkup(keyboard)
-        bot.send_message(chat_id=call.message.chat.id, text='Choose option:', reply_markup=markup)
-        more_data = call.data
-    elif call.data == "0":
-        joke = get_joke(more_data)
-        bot.send_message(chat_id=call.message.chat.id, text=joke)
-        keyboard = [
-            [InlineKeyboardButton("More", callback_data='0'), InlineKeyboardButton("Another one", callback_data='9')]]
-        markup = InlineKeyboardMarkup(keyboard)
-        bot.send_message(chat_id=call.message.chat.id, text='Choose option:', reply_markup=markup)
-    elif call.data == "9":
-        start(call.message)
+    try:
+        bot.answer_callback_query(callback_query_id=call.id)
+        if call.data in ('1', '2', '3', '4'):
+            bot.send_message(chat_id=call.message.chat.id, text=get_joke(call.data))
+            keyboard = [
+                [InlineKeyboardButton("More", callback_data='0'), InlineKeyboardButton("Another one", callback_data='9')]]
+            markup = InlineKeyboardMarkup(keyboard)
+            bot.send_message(chat_id=call.message.chat.id, text='Choose option:', reply_markup=markup)
+            more_data = call.data
+        elif call.data == "0":
+            joke = get_joke(more_data)
+            bot.send_message(chat_id=call.message.chat.id, text=joke)
+            keyboard = [
+                [InlineKeyboardButton("More", callback_data='0'), InlineKeyboardButton("Another one", callback_data='9')]]
+            markup = InlineKeyboardMarkup(keyboard)
+            bot.send_message(chat_id=call.message.chat.id, text='Choose option:', reply_markup=markup)
+        elif call.data == "9":
+            start(call.message)
+    except Exception:
+        pass
 
 
 def get_joke(data: str):
