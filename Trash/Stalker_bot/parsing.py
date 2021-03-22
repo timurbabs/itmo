@@ -15,12 +15,12 @@ def get_data(Chapter: str):
     jokes_main_class = soup.find(class_='mw-parser-output')
     jokes_poem = jokes_main_class.find_all(class_='poem')
     joke = None
-    if Chapter == "ТЧ":
+    if Chapter == '1':
         joke = jokes_poem[random.randint(0, 34)]
-    elif Chapter == "ЧН":
+    elif Chapter == '2':
         joke = jokes_poem[random.randint(35, 65)]
-    elif Chapter == "ЗП":
+    elif Chapter == '3':
         joke = jokes_poem[random.randint(66, 114)]
-    elif Chapter == "ВК":
+    elif Chapter == '4':
         joke = jokes_poem[random.randint(115, 127)]
     return joke.get_text()
