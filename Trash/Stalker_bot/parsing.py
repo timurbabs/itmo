@@ -1,8 +1,7 @@
 import requests
 import bs4
 import random
-
-URL = 'https://stalker-game.fandom.com/ru/wiki/%D0%90%D0%BD%D0%B5%D0%BA%D0%B4%D0%BE%D1%82%D1%8B'
+from data import URL
 
 
 def get_html(url):
@@ -17,11 +16,11 @@ def get_data(Chapter: str):
     jokes_poem = jokes_main_class.find_all(class_='poem')
     joke = None
     if Chapter == "ТЧ":
-        joke = jokes_poem[random.randint(1, 34)]
+        joke = jokes_poem[random.randint(0, 34)]
     elif Chapter == "ЧН":
-        joke = jokes_poem[random.randint(24, 65)]
+        joke = jokes_poem[random.randint(35, 65)]
     elif Chapter == "ЗП":
-        joke = jokes_poem[random.randint(51, 114)]
+        joke = jokes_poem[random.randint(66, 114)]
     elif Chapter == "ВК":
-        joke = jokes_poem[random.randint(51, 127)]
+        joke = jokes_poem[random.randint(115, 127)]
     return joke.get_text()
