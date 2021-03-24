@@ -14,13 +14,10 @@ def start(message):
     bot.send_message(chat_id=message.chat.id, text='Choose your joke.', reply_markup=markup)
 
 
-more_data = None
-
-
 @bot.callback_query_handler(func=lambda call: True)
 def query_handler(call):
-    global more_data
     try:
+        more_data = None
         if call.data in ('1', '2', '3', '4'):
             keyboard = [[InlineKeyboardButton("More", callback_data='0'),
                          InlineKeyboardButton("Another one", callback_data='9')]]

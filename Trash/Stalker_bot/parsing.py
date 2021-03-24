@@ -9,7 +9,7 @@ def get_html(url):
     return r.text
 
 
-def get_data(Chapter: str):
+def get_data(Chapter):
     html = get_html(URL)
     soup = bs4.BeautifulSoup(html, 'html.parser')
     jokes_main_class = soup.find(class_='mw-parser-output')
