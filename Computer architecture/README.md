@@ -1,2 +1,2 @@
-#### .exe - vine
+#### .exe - wine
 #### .jar - java -jar 
