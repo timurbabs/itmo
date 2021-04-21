@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/tk1.cpp.dir/tk2.cpp.o CMakeFiles/tk1.cpp.dir/tk3.cpp.o CMakeFiles/tk1.cpp.dir/tk4.cpp.o CMakeFiles/tk1.cpp.dir/tk5.cpp.o CMakeFiles/tk1.cpp.dir/tk6.cpp.o -o tk1.cpp 
