@@ -9,7 +9,7 @@ public class U1901Bank {
         intFrom = intFrom - intTransaction;
         try {
             Thread.sleep(lngTimeout);
-        } catch (InterruptedException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         intTo = intTo + intTransaction;
