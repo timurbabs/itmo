@@ -40,6 +40,7 @@ public class Main {
         end = new Date().getTime();
         System.out.println("In ArrayList: "+(end-begin));
 
+        u0901WorkArray
         CatalogLoader loader = new CatalogStubLoader();
         loader.load(myCatalog);
         myCatalog.printItems();
