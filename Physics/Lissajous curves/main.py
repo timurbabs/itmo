@@ -151,9 +151,9 @@ class Menu(Frame):
         # plt.style.use('dark_background') # optional style '3B1B'.
         fig, axs = plt.subplots(3)
         fig.set_size_inches(9, 8)
-        axs[2] = plt.subplot2grid((2, 2), (0, 0))
-        axs[0] = plt.subplot2grid((2, 2), (0, 1))
-        axs[1] = plt.subplot2grid((2, 2), (1, 0), colspan=2, rowspan=1)
+        axs[0] = plt.subplot2grid((3, 3), (0, 1))
+        axs[1] = plt.subplot2grid((3, 3), (1, 0), colspan=2, rowspan=1)
+        axs[2] = plt.subplot2grid((3, 3), (0, 0))
         axs[0].set_xlim(-4, 4)
         axs[0].set_ylim(-4, 4)
         axs[0].set_title("Point trajectory")

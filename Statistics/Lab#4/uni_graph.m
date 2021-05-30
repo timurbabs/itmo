@@ -5,7 +5,7 @@ pkg load statistics;
 function uni_task()
   a = 1;
   b = 3;
-  n = 10^4;
+  n = 10^6;
   m = 100;
   
   x = [1-0.5:0.01:3+0.5];
