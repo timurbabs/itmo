@@ -13,4 +13,4 @@ function norm_test(n, m, a, sigma)
 endfunction
 
 norm_test(100, 100, 1, 3)
-norm_test(10000, 100, 1, 3)
+norm_test(100, 10000, 1, 3)
