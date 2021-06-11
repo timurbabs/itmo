@@ -3,7 +3,7 @@ clear
 pkg load statistics
 
 function norm_test(n, m, a, sigma)
-  X = normrnd(a, sigma, n, m);
+  Xtemp = normrnd(a, sigma, n, m);
   theory = sqrt([sigma^2 / n, pi * sigma^2 / (2 * n), 0.4 * sigma^2 / log(n)]);
   practice = [std(mean(X)), std(median(X)), std((max(X) - min(X)) / 2)];
   printf("Нормальное распределение N(%g, %g):\n", a, sigma)

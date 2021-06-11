@@ -1,7 +1,7 @@
 clc 
 clear 
 pkg load statistics 
-#pkg load plot 
+pkg load plot 
 
 printf("\nLine function \n")
 printf("y = 3.1 + 2.4x \n");
