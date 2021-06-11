@@ -1,0 +1,96 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/timurbabs/ITMO/C++/Rubik's Cube/brink.cpp
+brink.h
+/home/timurbabs/ITMO/C++/Rubik's Cube/brink.h
+
+/home/timurbabs/ITMO/C++/Rubik's Cube/brink.h
+vector
+-
+
+/home/timurbabs/ITMO/C++/Rubik's Cube/cube.cpp
+cube.h
+/home/timurbabs/ITMO/C++/Rubik's Cube/cube.h
+
+/home/timurbabs/ITMO/C++/Rubik's Cube/cube.h
+cube_sweep.h
+/home/timurbabs/ITMO/C++/Rubik's Cube/cube_sweep.h
+GL/glut.h
+-
+iostream
+-
+small_cube.h
+/home/timurbabs/ITMO/C++/Rubik's Cube/small_cube.h
+fstream
+-
+
+/home/timurbabs/ITMO/C++/Rubik's Cube/cube_solver.cpp
+cube_solver.h
+/home/timurbabs/ITMO/C++/Rubik's Cube/cube_solver.h
+
+/home/timurbabs/ITMO/C++/Rubik's Cube/cube_solver.h
+cube_sweep.h
+/home/timurbabs/ITMO/C++/Rubik's Cube/cube_sweep.h
+
+/home/timurbabs/ITMO/C++/Rubik's Cube/cube_sweep.cpp
+iostream
+-
+random
+-
+ctime
+-
+vector
+-
+string
+-
+fstream
+-
+brink.h
+/home/timurbabs/ITMO/C++/Rubik's Cube/brink.h
+cube_sweep.h
+/home/timurbabs/ITMO/C++/Rubik's Cube/cube_sweep.h
+cube_solver.h
+/home/timurbabs/ITMO/C++/Rubik's Cube/cube_solver.h
+
+/home/timurbabs/ITMO/C++/Rubik's Cube/cube_sweep.h
+random
+-
+ctime
+-
+vector
+-
+iostream
+-
+string
+-
+brink.h
+/home/timurbabs/ITMO/C++/Rubik's Cube/brink.h
+
+/home/timurbabs/ITMO/C++/Rubik's Cube/main.cpp
+ctime
+-
+cstdlib
+-
+fstream
+-
+cube.h
+/home/timurbabs/ITMO/C++/Rubik's Cube/cube.h
+
+/home/timurbabs/ITMO/C++/Rubik's Cube/small_cube.cpp
+small_cube.h
+/home/timurbabs/ITMO/C++/Rubik's Cube/small_cube.h
+
+/home/timurbabs/ITMO/C++/Rubik's Cube/small_cube.h
+iostream
+-
+vector
+-
+GL/glut.h
+-
+

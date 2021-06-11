@@ -1,0 +1,2 @@
+ComputerName,Name,StartRange,EndRange,LeaseDuration,SubnetMask,State
+s1,S1,10.0.0.100,10.0.0.200,01:00:00,255.0.0.0, Active
