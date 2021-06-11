@@ -1,3 +1,0 @@
-/home/timurbabs/ITMO/C++/Rubik's Cube/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/timurbabs/ITMO/C++/Rubik's Cube/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/timurbabs/ITMO/C++/Rubik's Cube/cmake-build-debug/CMakeFiles/Lab8.dir
